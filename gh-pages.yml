@@ -11,9 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
-    - name: Checkout
-      uses: actions/checkout@v1
+      - name: Checkout
+        uses: actions/checkout@v1
 
     - name: Build
       run: |
@@ -24,9 +23,9 @@ jobs:
         REACT_APP_SERVICE: ${{ secrets.REACT_APP_SERVICE }}
         REACT_APP_TEMPLATE: ${{ secrets.REACT_APP_TEMPLATE }}
 
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@4.0.0
-      with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: build
+    - name: Deploy 🚀
+   uses: JamesIves/github-pages-deploy-action@4.0.0
+   with:
+      token: ${{ secrets.ACCESS_TOKEN }}
+      branch: gh-pages 
+      folder: build
