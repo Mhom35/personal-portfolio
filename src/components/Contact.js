@@ -46,12 +46,15 @@ export const Contact = () => {
     //   };
 
     const form = useRef();
+    const mailapi = process.env.REACT_APP_MAIL_API
+    const service = process.env.REACT_APP_SERVICE
+    const template = process.env.REACT_APP_TEMPLATE
 
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText("Sending...");
-        let result = await emailjs.sendForm('service_9yocr0t', 'template_kayp59r', form.current , 'Cx7dKk2-P7flx-w3n')
+        let result = await emailjs.sendForm(service, template, form.current , mailapi)
         // .then((result) => {
         //     console.log(result.text);
         // }, (error) => {
