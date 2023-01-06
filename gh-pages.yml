@@ -7,7 +7,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -24,8 +23,8 @@ jobs:
         REACT_APP_TEMPLATE: ${{ secrets.REACT_APP_TEMPLATE }}
 
     - name: Deploy 🚀
-   uses: JamesIves/github-pages-deploy-action@4.0.0
-   with:
-      token: ${{ secrets.ACCESS_TOKEN }}
-      branch: gh-pages 
-      folder: build
+      uses: JamesIves/github-pages-deploy-action@4.0.0
+      with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-pages 
+          folder: build
