@@ -47,7 +47,7 @@ export const Projects = () => {
                             <a target="_blank" rel="noopener noreferrer" href="https://niteout1.gitlab.io/nite-out"><h2>Nite Out</h2></a>
                             <div className="ptext">
                               <img src={github} alt=""/>
-                              <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mhom35/Nite-out"><span>Github</span></a>
+                              <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitchellhom/Nite-out"><span>Github</span></a>
                               
                             </div>
 
@@ -95,7 +95,7 @@ export const Projects = () => {
                           <h2>Car Car</h2>
                             <div className="ptext">
                               <img src={github} alt=""/>
-                              <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/Mhom35/project-beta"><span>Github</span></a>
+                              <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitchellhom/Car-Car"><span>Github</span></a>
                               
                             </div>
 

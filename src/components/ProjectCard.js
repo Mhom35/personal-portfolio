@@ -15,7 +15,7 @@ export const ProjectCard = ({title, description, imgUrl, vid, link}) => {
             }
                 <div className="proj-txtx">
                     <h4>{title}</h4>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mhom35/Nite-out"><span>{description}</span></a>
+                    <a target="_blank" rel="noopener noreferrer" href={link}><span>{description}</span></a>
                 </div>
             </div>
         </Col>
