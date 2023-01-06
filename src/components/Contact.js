@@ -54,7 +54,7 @@ export const Contact = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setButtonText("Sending...");
-        let result = await emailjs.sendForm(service, template, form.current , mailapi)
+        let result = await emailjs.sendForm(service, template, form.current , "z71Chi5w08mkt9ZsK")
         // .then((result) => {
         //     console.log(result.text);
         // }, (error) => {
