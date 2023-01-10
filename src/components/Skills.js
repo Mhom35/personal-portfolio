@@ -42,12 +42,14 @@ export const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>I recently attended a coding bootcamp where I learned a wide range of programming skills, 
-                                including front-end web development technologies such as HTML, CSS, React and JavaScript, 
-                                as well as back-end technologies like Python, Django, and Fastapi. I am able to incorporate both sql and non sql databases
-                                using postgreSQL and mongoDB into both current and future projects.
+                            <p>After completing Hack Reactor’s full-time Software Engineering Bootcamp, 
+                                I quickly became proficient in a wide range of programming skills, 
+                                including front-end web development technologies such as React, HTML, CSS, 
+                                and JavaScript, as well as back-end technologies like Python, Django, and FastAPI. 
+                                I gained experience incorporating both SQL and nonSQL databases using postgreSQL and mongoDB into my projects. 
+                                Building projects has allowed me to familiarize myself with version control using Git, and working in a team environment using agile development methodologies. 
                                 <br></br>
-                            <p>I also gained experience with version control using Git and working in a team environment using agile development methodologies. In the future, I hope to continue building upon these skills and expand my knowledge in areas such as machine learning, web development, and data analysis. I am also interested in learning more about cloud computing and how to develop and deploy applications on platforms like AWS</p></p>
+                            <p>I hope to continue building upon these skills and expand my knowledge in areas such as machine learning, web development, and data analysis. I am also interested in learning more about cloud computing and how to develop and deploy applications on platforms like AWS.</p></p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
                                     <img src={reactLogo} alt="React" />
@@ -99,5 +101,5 @@ export const Skills = () => {
 
 
 
-//    // "predeploy": "npm run build",
-    // "deploy": "gh-pages -d build",
+//    "predeploy": "npm run build",
+//     "deploy": "gh-pages -d build",

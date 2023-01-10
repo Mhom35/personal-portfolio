@@ -37,7 +37,7 @@ export const About = () => {
                     <Col xs={9} md={5} xl={7} responsive={responsive}>
                             <div className="item1">
                                 <h2>About Me</h2>
-                                <p> I am a full stack software engineer with a passion for problem-solving and creating intuitive and user-friendly applications. I am recent UC Berkeley grad that majored in economics, however I am looking to make a change to pursue my passion of software development.</p>
+                                <p> I am a full-stack software engineer with a passion for problem-solving and creating intuitive, user-friendly applications. I am a recent graduate from UC Berkeley with an Economics degree. My undergraduate education places a strong emphasis on analytical and problem-solving skills, which I look forward to combining with my coding bootcamp education to pursue my passion for software development.</p>
                             </div>
                     </Col>
                     <Col xs={9} md={5} xl={2} responsive={responsive}>
