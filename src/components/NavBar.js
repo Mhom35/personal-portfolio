@@ -5,7 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import github from '../assets/img/github.svg'
-
+import SelectInput from "@mui/material/Select/SelectInput";
 
 
 export const NavBar = () => {
@@ -31,6 +31,21 @@ export const NavBar = () => {
         setActiveLink(value)
     }
 
+    const sendToContact = async (e) => {
+      e.preventDefault();
+         // anchor link
+      const element = document.createElement("a");
+      element.href = "/mitchellHomResume2023.pdf"
+      element.download = "mitchellHomResume2023.pdf"
+
+    // simulate link click
+      await document.body.appendChild(element); // Required for this to work in FireFox
+      
+      await document.getElementById("connect").scrollIntoView();
+      await element.click();
+
+    }
+
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
           <Container>
@@ -53,7 +68,7 @@ export const NavBar = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mhom35"><img src={github} alt=""/></a>
                     {/* <a href="#"><img src={navIcon3} alt=""/></a> */}
                 </div>
-                <a href="#connect"><button className="vvd"  href="#connect" onClick={() => console.log('connect')}><span>Hire Me</span></button></a>
+                <button className="vvd" onClick={sendToContact}><span>Hire Me</span></button>
               </span>
             </Navbar.Collapse>
           </Container>

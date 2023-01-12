@@ -8,7 +8,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting ] = useState(false);
-    const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+    const toRotate = ["Full Stack Engineer", "Web Developer", "Software Engineer"];
     const [text, setText ] = useState('');
     //deterimine how fast letters get typed on a screen
     const [delta, setDelta ] = useState(300 - Math.random() * 100)
@@ -60,8 +60,8 @@ export const Banner = () => {
                         {({isVisibile}) =>
                             <div className={isVisibile ? "animate__animated animate__fadeIn": ""}>
                                 <span className="tagline">Welcome to my portfolio</span>
-                                <h1>{`Hi I am Mitchell `}<span className="wrap">{text}</span></h1>
-                                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mitchell-hom/"><button onClick={() => console.log('connect')}>Connect on Linkedin<ArrowRightCircle size={25}></ArrowRightCircle></button></a>
+                                <h1>{`Hi I am Mitchell, `}<span className="wrap">{text}</span></h1>
+                                <a href="/mitchellHomResume2023.pdf" download="mitchellHomResume2023.pdf"><button onClick={() => console.log('connect')}>Download My Resume<ArrowRightCircle size={25}></ArrowRightCircle></button></a>
                             </div>
                         }
                         </TrackVisibility>

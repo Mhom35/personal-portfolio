@@ -42,12 +42,7 @@ export const Skills = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Skills</h2>
-                            <p>After completing Hack Reactor’s full-time Software Engineering Bootcamp, 
-                                I quickly became proficient in a wide range of programming skills, 
-                                including front-end web development technologies such as React, HTML, CSS, 
-                                and JavaScript, as well as back-end technologies like Python, Django, and FastAPI. 
-                                I gained experience incorporating both SQL and nonSQL databases using postgreSQL and mongoDB into my projects. 
-                                Building projects has allowed me to familiarize myself with version control using Git, and working in a team environment using agile development methodologies. 
+                            <p>I am proficient in a wide range of programming skills, including front-end web development technologies such as React, HTML, CSS, and JavaScript, as well as back-end technologies like Python, Django, and FastAPI. I gained experience incorporating both SQL and nonSQL databases using postgreSQL and mongoDB into my projects. Building projects has allowed me to familiarize myself with version control using Git, and working in a team environment using agile development methodologies.  
                                 <br></br>
                             <p>I hope to continue building upon these skills and expand my knowledge in areas such as machine learning, web development, and data analysis. I am also interested in learning more about cloud computing and how to develop and deploy applications on platforms like AWS.</p></p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">

@@ -37,7 +37,8 @@ export const About = () => {
                     <Col xs={9} md={5} xl={7} responsive={responsive}>
                             <div className="item1">
                                 <h2>About Me</h2>
-                                <p> I am a full-stack software engineer with a passion for problem-solving and creating intuitive, user-friendly applications. I am a recent graduate from UC Berkeley with an Economics degree. My undergraduate education places a strong emphasis on analytical and problem-solving skills, which I look forward to combining with my coding bootcamp education to pursue my passion for software development.</p>
+                                <p>I am a recent UC Berkeley graduate with a B.A. in Economics
+                                now transitioning into a career in Software Engineering having completed Hack Reactor’s full-time and full-stack SWE bootcamp. My undergraduate education places a strong emphasis on analytical and problem-solving skills, which I look forward to combining with my coding bootcamp education to pursue my passion for software development.</p>
                             </div>
                     </Col>
                     <Col xs={9} md={5} xl={2} responsive={responsive}>
