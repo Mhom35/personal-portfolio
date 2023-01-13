@@ -3,7 +3,7 @@ import {useState} from 'react';
 import {ProjectCard } from "./ProjectCard"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
-import {projects1, projects2, projects3,  techstack1, techstack3} from "./projectData"
+import {projects1, projects2, projects3,  techstack1, techstack2, techstack3} from "./projectData"
 import Card from 'react-bootstrap/Card';
 import Typography from "@mui/material/Typography";
 import github from '../assets/img/github.svg'
@@ -77,6 +77,27 @@ export const Projects = () => {
                         </Tab.Pane>
                         <Tab.Pane eventKey="second">
                           <Row>
+                          <h2>Electronics Ecommerce Website</h2>
+                            <div className="ptext">
+                              <img src={github} alt=""/>
+                              <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitchellhom/ecommerce-sanity-integration"><span>Github</span></a>
+                              
+                            </div>
+
+                            <p className="description">Electronics Ecommerce website with a fully fuctional payment processing and easy to manage database. Front end was built using React and backend was built using Next.js. 
+                            The payment system utilizes Stripe API and the database is managed via Sanity.io. 
+                            </p>
+                            <div class="projcontainer">
+                              <div class="offset"></div>
+                              <div class="project-wrapper">
+                                {techstack2.map((location) => (
+                                  <div class="projitem" >
+                                    <img key={location.title} src={location.imgUrl} alt="" />
+                                    <p>{location.title}</p>
+                                  </div>
+                                ))}
+                              </div>
+                            </div>
                             
                               {
                                 projects2.map((project, index, link) => {
@@ -99,7 +120,7 @@ export const Projects = () => {
                               
                             </div>
 
-                            <p className="description">Plan your night out based on other users bar crawl recommendations</p>
+                            <p className="description">Full stack car manufacturer company website. The backend was built using Django and the frontend was built using React.</p>
                             <div class="projcontainer">
                               <div class="offset"></div>
                               <div class="project-wrapper">

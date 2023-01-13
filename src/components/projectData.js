@@ -20,6 +20,16 @@ import docker from "../assets/img/docker.png"
 import signin from "../assets/img/signin.png"
 import signup from "../assets/img/signup.png"
 import homepage from "../assets/img/homepage.png"
+import stripe2 from "../assets/img/stripe2.png"
+import stripe1 from "../assets/img/stripe1.png"
+import confirmation from "../assets/img/confirmation.png"
+import home from "../assets/img/home.png"
+import cart from "../assets/img/cart.png"
+import product from "../assets/img/product.png"
+import nextjs from "../assets/img/nextjs.png"
+import sanity from "../assets/img/sanity.png"
+import stripelogo from "../assets/img/stripelogo.png"
+
 
  const projects1 = [
     {
@@ -56,20 +66,39 @@ import homepage from "../assets/img/homepage.png"
 
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Landing Page",
+      description: "Landing Page customers can see nicely formatted banners with products that are on sale",
+      imgUrl: home,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title: "Shopping Cart",
+      description: "Responsive shopping cart with functional add, subtract and delete buttons",
+      imgUrl: cart,
     },
     {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
-      },
+      title: "Product Detail Page",
+      description: "Shows individual product detail with a carousel of items relating to the product. Also has add to cart and buy now functionality",
+      imgUrl: product,
+    },
+  
+    {
+      title: "Payment System",
+      description: "Functional payment system via Stripe API",
+      imgUrl: stripe1,
+    },
+    {
+      title: "Succesful Purchase",
+      description: "Purchases and customer information will be tracked once payment is succesful",
+      imgUrl: stripe2,
+    },
+
+    {
+      title: "Order Confirmation",
+      description: "Email will be sent once order is succesful",
+      imgUrl: confirmation,
+    },
+    
+      
 
   ];
   const projects3 = [
@@ -115,6 +144,29 @@ import homepage from "../assets/img/homepage.png"
     },
 
   ]
+  const techstack2 = [
+    {
+        title: "React",
+        imgUrl: reactLogo,
+    },
+    {
+        title: "Sanity.io",
+        imgUrl: sanity,
+    },
+    {
+      title: "Next JS",
+      imgUrl: nextjs,
+  },
+    {
+        title: "Stripe",
+        imgUrl: stripelogo,
+    },
+    {
+        title: "Javascript",
+        imgUrl: jsLogo,
+    },
+
+  ]
 
 
   const techstack3 = [
@@ -139,7 +191,7 @@ import homepage from "../assets/img/homepage.png"
 
   ]
 
-export {projects1, projects2, projects3, techstack1, techstack3}
+export {projects1, projects2, projects3, techstack1, techstack2, techstack3}
 
 
   

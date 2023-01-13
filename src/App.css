@@ -968,7 +968,9 @@ Credit */
   border-radius: 0.5em;
 }
 .projitem:hover p{
-  font-size: small;
+  font-size: medium;
+  color: #fff;
+  
 }
 
 .ptext {

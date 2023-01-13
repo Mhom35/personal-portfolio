@@ -65,7 +65,7 @@ export const NavBar = () => {
               <span className="navbar-text" >
                 <div className="social-icon">
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/mitchell-hom/"><img src={navIcon1} alt=""/></a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/Mhom35"><img src={github} alt=""/></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitchellhom"><img src={github} alt=""/></a>
                     {/* <a href="#"><img src={navIcon3} alt=""/></a> */}
                 </div>
                 <button className="vvd" onClick={sendToContact}><span>Hire Me</span></button>
