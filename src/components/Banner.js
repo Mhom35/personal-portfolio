@@ -60,8 +60,8 @@ export const Banner = () => {
                         <TrackVisibility>
                         {({isVisibile}) =>
                             <div className={isVisibile ? "animate__animated animate__fadeIn": ""}>
-                                <span className="tagline">Welcome to my portfolio!</span>
-                                <h1>{`Hi I am Mitchell, `}<span className="wrap">{text}</span></h1>
+                                <span className="tagline">Hi, welcome to my portfolio!</span>
+                                <h1>{`I am Mitchell, `}<span className="wrap">{text}</span></h1>
                                 <a href={mitchellHomResume2023} download="mitchellHomResume2023.pdf" target="_blank"><button onClick={() => console.log('connect')}>Download My Resume<ArrowRightCircle size={25}></ArrowRightCircle></button></a>
                             </div>
                         }
