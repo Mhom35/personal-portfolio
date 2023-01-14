@@ -49,7 +49,7 @@ export const Projects = () => {
                               
                             </div>
 
-                            <p className="description">Plan your night out based on other users bar crawl recommendations</p>
+                            <p className="description">An app to help plan your night out based on other users' bar crawl recommendations.</p>
                             <div class="projcontainer">
                               <div class="offset"></div>
                               <div class="project-wrapper">
@@ -82,8 +82,7 @@ export const Projects = () => {
                               
                             </div>
 
-                            <p className="description">Electronics Ecommerce website with a fully fuctional payment processing and easy to manage database. Front end was built using React and backend was built using Next.js. 
-                            The payment system utilizes Stripe API and the database is managed via Sanity.io. 
+                            <p className="description">An electronics ecommerce website with a fully functional payment processor and easily managed database. The front-end was built using React, and back-end was built using Next.js. The payment system utilizes Stripe API and the database is managed via Sanity.io.. 
                             </p>
                             <div class="projcontainer">
                               <div class="offset"></div>
@@ -118,7 +117,7 @@ export const Projects = () => {
                               
                             </div>
 
-                            <p className="description">Full stack car manufacturer company website. The backend was built using Django and the frontend was built using React.</p>
+                            <p className="description">A full-stack car manufacturer company website for internal use. The back-end was built using Django and the front-end was built using React.</p>
                             <div class="projcontainer">
                               <div class="offset"></div>
                               <div class="project-wrapper">
