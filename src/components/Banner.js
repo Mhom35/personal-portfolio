@@ -4,6 +4,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from "../assets/img/header-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import mitchellHomResume2023 from '../assets/img/mitchellHomResume2023.pdf';
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -61,7 +62,7 @@ export const Banner = () => {
                             <div className={isVisibile ? "animate__animated animate__fadeIn": ""}>
                                 <span className="tagline">Welcome to my portfolio!</span>
                                 <h1>{`Hi I am Mitchell, `}<span className="wrap">{text}</span></h1>
-                                <a href="../../mitchellHomResume2023.pdf" download="mitchellHomResume2023.pdf"><button onClick={() => console.log('connect')}>Download My Resume<ArrowRightCircle size={25}></ArrowRightCircle></button></a>
+                                <a href={mitchellHomResume2023} download="mitchellHomResume2023.pdf" target="_blank"><button onClick={() => console.log('connect')}>Download My Resume<ArrowRightCircle size={25}></ArrowRightCircle></button></a>
                             </div>
                         }
                         </TrackVisibility>
