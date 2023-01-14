@@ -33,12 +33,12 @@ export const NavBar = () => {
     const sendToContact = async (e) => {
       e.preventDefault();
          // anchor link
-      const element = document.createElement("a");
-      element.target="_blank";
-      element.href = {mitchellHomResume2023};
-      element.rel = "noopener noreferrer";
+      let element = document.createElement("a");
+      element.setAttribute("download", "mitchellHomResume2023.pdf");
+      element.setAttribute("target", "_blank");
+      element.setAttribute("rel", "noopener noreferrer");
       element.style.display = "none";
-      element.download = "mitchellHomResume2023.pdf";
+      element.setAttribute("href", mitchellHomResume2023);
 
     // simulate link click
       await document.body.appendChild(element); // Required for this to work in FireFox
