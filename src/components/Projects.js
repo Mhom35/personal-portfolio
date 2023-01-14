@@ -4,8 +4,6 @@ import {ProjectCard } from "./ProjectCard"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import {projects1, projects2, projects3,  techstack1, techstack2, techstack3} from "./projectData"
-import Card from 'react-bootstrap/Card';
-import Typography from "@mui/material/Typography";
 import github from '../assets/img/github.svg'
 
 import TrackVisibility from 'react-on-screen';
