@@ -36,6 +36,8 @@ export const NavBar = () => {
       const element = document.createElement("a");
       element.setAttribute("target", "_blank");
       element.href = {mitchellHomResume2023}
+      element.setAttribute("rel", "noopener noreferrer");
+      element.style.display = "none";
       element.download = "mitchellHomResume2023.pdf"
 
     // simulate link click
