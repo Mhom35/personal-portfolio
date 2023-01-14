@@ -5,7 +5,7 @@ import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
 import github from '../assets/img/github.svg'
-import SelectInput from "@mui/material/Select/SelectInput";
+import mitchellHomResume2023 from '../assets/img/mitchellHomResume2023.pdf';
 
 
 export const NavBar = () => {
@@ -35,7 +35,7 @@ export const NavBar = () => {
       e.preventDefault();
          // anchor link
       const element = document.createElement("a");
-      element.href = "/mitchellHomResume2023.pdf"
+      element.href = {mitchellHomResume2023}
       element.download = "mitchellHomResume2023.pdf"
 
     // simulate link click
