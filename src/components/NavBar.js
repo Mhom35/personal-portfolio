@@ -34,6 +34,7 @@ export const NavBar = () => {
       e.preventDefault();
          // anchor link
       const element = document.createElement("a");
+      element.setAttribute("target", "_blank");
       element.href = {mitchellHomResume2023}
       element.download = "mitchellHomResume2023.pdf"
 
