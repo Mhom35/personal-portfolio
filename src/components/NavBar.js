@@ -34,11 +34,11 @@ export const NavBar = () => {
       e.preventDefault();
          // anchor link
       const element = document.createElement("a");
-      element.setAttribute("target", "_blank");
-      element.href = {mitchellHomResume2023}
-      element.setAttribute("rel", "noopener noreferrer");
+      element.target="_blank";
+      element.href = {mitchellHomResume2023};
+      element.rel = "noopener noreferrer";
       element.style.display = "none";
-      element.download = "mitchellHomResume2023.pdf"
+      element.download = "mitchellHomResume2023.pdf";
 
     // simulate link click
       await document.body.appendChild(element); // Required for this to work in FireFox
